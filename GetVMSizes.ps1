@@ -1,3 +1,6 @@
+
+##Get all VM sizes names per region in Azure ##
+
 ﻿$azurelocations = Get-AzureLocation
 $out = @()
 foreach ($location in $azurelocations)
